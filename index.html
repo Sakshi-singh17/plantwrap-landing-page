@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlantWrap - Biodegradable Packaging</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .intro-video {
+            width: 100%;
+            max-height: 70vh;
+            border: 2px solid #2c3e50;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar"class="navbar navbar-expand-lg ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="PlantWrap Logo" width="40"> PlantWrap
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#buy">Buy Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white d-flex justify-content-center align-items-center">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>PlantWrap</h1>
+            <p>Biodegradable packaging with embedded seeds - turning waste into plants.</p>
+            <a href="#buy" class="btn btn-success btn-lg">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Intro Video Section -->
+    <section class="intro-video-section py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Watch How PlantWrap Works</h2>
+            <video class="intro-video" controls>
+                <source src="intro.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="mb-4">Why Choose PlantWrap?</h2>
+                <div class="col-md-4">
+                    <img src="plantWrap.png" alt="Biodegradable Packaging" class="img-fluid mb-3">
+                    <h5>Eco-Friendly</h5>
+                    <p>Made entirely of biodegradable materials that decompose naturally.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="plantWrap.png" alt="Embedded Seeds" class="img-fluid mb-3">
+                    <h5>Embedded Seeds</h5>
+                    <p>Turn your waste into plants with our innovative seed-embedded packaging.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="plantWrap.png" alt="Sustainable Living" class="img-fluid mb-3">
+                    <h5>Sustainable Living</h5>
+                    <p>Promote a greener planet with every use.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-5">
+        <div class="container text-center">
+            <h2>How It Works</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p>1. Use PlantWrap for packaging your goods.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>2. Discard PlantWrap into soil to grow plants effortlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buy Section -->
+    <section id="buy" class="py-5">
+        <div class="container text-center">
+            <h2>Buy PlantWrap</h2>
+            <p>Join us in making the world greener. Get your PlantWrap today!</p>
+            <a href="https://buy-plantwrap.example.com" class="btn btn-primary">Buy Now</a>
+        </div>
+    </section>
+
+    <footer class="text-center py-3">
+        <p>&copy; 2025 PlantWrap. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
